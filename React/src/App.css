@@ -1,0 +1,51 @@
+*{
+  padding: 2.5px;
+  margin: 5px;
+  color: pink;
+  background-color:darkolivegreen;
+  align-items: center;
+  justify-content: space-between;
+  font-family:'Times New Roman', Times, serif ;
+}
+
+header{
+  display: flex;
+  align-items: center;
+}
+
+h1:hover{
+  color: black;
+  font-size: 30px;
+  transition: font-size 150ms ease-in, color 150ms ease-in;
+}
+
+h2:hover{
+  color: black;
+  font-size: 25px;
+  transition: font-size 150ms ease-in, color 150ms ease-in;
+}
+
+h3:hover{
+  color: black;
+  font-size: 20px;
+  transition: font-size 150ms ease-in, color 150ms ease-in;
+}
+
+td{
+  margin: 5px;
+  padding: 5px;
+  width: 700px;
+  height: 700px;
+}
+
+img{
+  position:absolute;
+  width: 700px;
+  height: 700px;
+}
+
+table{
+  margin: 0;
+  padding: 2px;
+  width: 100%;
+}
